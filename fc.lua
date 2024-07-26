@@ -10,7 +10,7 @@ if t<10 then t="0"..t end
 return t
 end
 expiredate=Year.. check(Month).. check(Date)
-date=gg.makeRequest("whatismyip.org").headers["Date" ][1] --whatismyip.org is smallest webpage so takes less time for loading 
+date=gg.makeRequest("https://www.pastebin.com").headers["Date" ][1] --whatismyip.org is smallest webpage so takes less time for loading 
 month={"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}
 for i=1,12 do
  if month[i]==string.sub(date,9, 11) then
