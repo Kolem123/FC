@@ -148,7 +148,7 @@ function main()
         translate("▶️TOURNAMENT LEAGUE CHANGE SCORE📟"),
         translate("🌟 FOR MISSION🏋️‍♂️"),
         translate("Exit")
-    }, nil, os.date("/n❈•≫────≪•◦ ❈ ◦•≫────≪•❈ \n| ƇӇЄƛƬ ƑƇ MƠƁƖԼЄ 2024 \n        😎ƘƖƝƓ•ƘƠLЄM😎 \n|TELEGRAM : @KolemStoree\n❈•≫────≪•◦ ❈ ◦•≫────≪•❈"))
+    }, nil,translate("Made By @KolemStoree | FC Mobile Script"))
 
         if menu == nil then else
         if menu == 1 then SHFR() end --SCRIPT by @KolemStoree
