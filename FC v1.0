@@ -224,8 +224,6 @@ T2s = gg.getResults(gg.getResultsCount(4))[3]
 gg.processResume()
 T1s.value = 3
 T2s.value = 1
-T1s.freeze = false
-T2s.freeze = false
 gg.addListItems({
   [1] = T1s,
   [2] = T2s
