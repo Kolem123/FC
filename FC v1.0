@@ -205,8 +205,8 @@ function CSH() --menu HomeGround DirectWin
     gg.processResume()
     T1s.value = 1
     T2s.value = 2
-    T1s.freeze = false
-    T2s.frezee = false
+    T1s.freeze = true
+    T2s.frezee = true
     gg.addListItems({
   [1] = T1s,
   [2] = T2s
@@ -226,8 +226,8 @@ T2s = gg.getResults(gg.getResultsCount(4))[3]
 gg.processResume()
 T1s.value = 3
 T2s.value = 1
-T1s.frezee = false
-T2s.frezee = false
+T1s.frezee = true
+T2s.frezee = true
 gg.addListItems({
   [1] = T1s,
   [2] = T2s
