@@ -204,8 +204,8 @@ T1s = gg.getResults(gg.getResultsCount(4))[1]
 T2s = gg.getResults(gg.getResultsCount(4))[3]
 gg.toast("✨️👑 ACTIVE 👑✨")
 gg.processResume()
-T1s.value = 1
-T2s.value = 0
+T1s.value = 0
+T2s.value = 1
 T1s.freeze = true
 T2s.freeze = true
 gg.addListItems({
