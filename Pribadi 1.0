@@ -136,19 +136,17 @@ end  --SCRIPT by @KolemStoree
     
 function SHFR()  --menu 1(H2H MENU)
     setm = gg.choice({
- dop .. "⚡Disconnect Opponent (PHONE)😂________🎗️________ ",
-        "⚡Off The Disconnect Opponent😭________🎗️________ ",
+ dop .. "⚡Disconnect Opponent (PHONE)😂________🎗️",
         "⚡HomeGround DirectWin________🎗️________ ",
         "⚡AwayGround DirectWin________🎗️________ ",
         "⚡ SPEED TIME________🎗️________ ",
         "Back"}, nil,"𝘔𝘢𝘥𝘦 𝘉𝘺 @KolemStoree | 𝑭𝑪 𝑴𝑶𝑩𝑰𝑳𝑬 𝑪𝑯𝑬𝑨𝑻")
         if setm == nil then else
         if setm == 1 then ASH() end --SCRIPT by @KolemStoree
-        if setm == 2 then OSH() end --SCRIPT by @KolemStoree
-        if setm == 3 then CSH() end --SCRIPT by @KolemStoree
-        if setm == 4 then KLM() end --SCRIPT by @KolemStoree
-        if setm == 5 then CLM() end --SCRIPT by @KolemStoree
-        if setm == 6 then main() end --SCRIPT by @KolemStoree
+        if setm == 2 then CSH() end --SCRIPT by @KolemStoree
+        if setm == 3 then KLM() end --SCRIPT by @KolemStoree
+        if setm == 4 then CLM() end --SCRIPT by @KolemStoree
+        if setm == 5 then main() end --SCRIPT by @KolemStoree
     end --SCRIPT by @KolemStoree
 end --SCRIPT by @KolemStoree
 
