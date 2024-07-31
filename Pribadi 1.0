@@ -1,3 +1,19 @@
+if gg.VERSION == "450.3"
+then elseif gg.VERSION== "450.3" then else
+print("🛡️Script By @KolemStoree🛡️")
+print("┏━━━━━━━━━━━━━━━━━━━━━━━━┓   ")
+print("      🚨ERROR LOADING SCRIPT🚨             ")
+print("")
+print("     ")
+print("⛔You Can Only Using This Script With My Game Guardian⛔")
+print("                   ")
+print("")
+print("    ᴛᴇʟᴇɢʀᴀᴍ : @KolemStoree")
+print("    ᴛᴇʟᴇɢʀᴀᴍ : @KolemStoree")
+print("")
+print("┗━━━━━━━━━━━━━━━━━━━━━━━━┛   ")
+os.exit() end
+
 gg.toast('𝘚𝘤𝘳𝘪𝘱𝘵 𝘔𝘢𝘥𝘦 𝘉𝘺 @KolemStoree')
 
 if gg.isVisible(false)
@@ -31,10 +47,6 @@ end --SCRIPT by @KolemStoree
 --RESULT DELETER--
 gg.clearList()
 gg.clearResults()
-
---SUPPORTED GG VERSION--
-              --> 450.3 <--
-
 
 local scriptRuns = 0 -- Кількість запусків скрипта
 local passwordEntered = false -- Прапорець для відстеження введення пароля
@@ -136,17 +148,19 @@ end  --SCRIPT by @KolemStoree
     
 function SHFR()  --menu 1(H2H MENU)
     setm = gg.choice({
- dop .. "⚡Disconnect Opponent (PHONE)😂________🎗️",
+ dop .. "⚡Disconnect Opponent (PHONE)😂________🎗️____",
+        "⚡Off The Disconnect Opponent😭________🎗️________ ",
         "⚡HomeGround DirectWin________🎗️________ ",
         "⚡AwayGround DirectWin________🎗️________ ",
         "⚡ SPEED TIME________🎗️________ ",
         "Back"}, nil,"𝘔𝘢𝘥𝘦 𝘉𝘺 @KolemStoree | 𝑭𝑪 𝑴𝑶𝑩𝑰𝑳𝑬 𝑪𝑯𝑬𝑨𝑻")
         if setm == nil then else
         if setm == 1 then ASH() end --SCRIPT by @KolemStoree
-        if setm == 2 then CSH() end --SCRIPT by @KolemStoree
-        if setm == 3 then KLM() end --SCRIPT by @KolemStoree
-        if setm == 4 then CLM() end --SCRIPT by @KolemStoree
-        if setm == 5 then main() end --SCRIPT by @KolemStoree
+        if setm == 2 then OSH() end --SCRIPT by @KolemStoree
+        if setm == 3 then CSH() end --SCRIPT by @KolemStoree
+        if setm == 4 then KLM() end --SCRIPT by @KolemStoree
+        if setm == 5 then CLM() end --SCRIPT by @KolemStoree
+        if setm == 6 then main() end --SCRIPT by @KolemStoree
     end --SCRIPT by @KolemStoree
 end --SCRIPT by @KolemStoree
 
@@ -627,6 +641,22 @@ Year=9999 -- Expiry year
 expiremessage="⚠⚠𝙏𝙝𝙚 𝙨𝙘𝙧𝙞𝙥𝙩 𝙞𝙨 𝙚𝙭𝙥𝙞𝙧𝙚𝙙 ⚠⚠" --Expiry message 
 --This script will expire on 15/05/2028
 
+if gg.VERSION == "450.3"
+then elseif gg.VERSION== "450.3" then else
+print("🛡️Script By @KolemStoree🛡️")
+print("┏━━━━━━━━━━━━━━━━━━━━━━━━┓   ")
+print("      🚨ERROR LOADING SCRIPT🚨             ")
+print("")
+print("     ")
+print("⛔You Can Only Using This Script With My Game Guardian⛔")
+print("                   ")
+print("")
+print("    ᴛᴇʟᴇɢʀᴀᴍ : @KolemStoree")
+print("    ᴛᴇʟᴇɢʀᴀᴍ : @KolemStoree")
+print("")
+print("┗━━━━━━━━━━━━━━━━━━━━━━━━┛   ")
+os.exit() end
+
 --Do not change below code 
 function check(t) 
 if t<10 then t="0"..t end
@@ -784,7 +814,7 @@ end  --SCRIPT by @KolemStoree
     
 function SHFR()  --menu 1(H2H MENU)
     setm = gg.choice({
- dop .. "⚡Disconnect Opponent (PHONE)😂________🎗️________ ",
+ dop .. "⚡Disconnect Opponent (PHONE)😂________🎗️____",
         "⚡Off The Disconnect Opponent😭________🎗️________ ",
         "⚡HomeGround DirectWin________🎗️________ ",
         "⚡AwayGround DirectWin________🎗️________ ",
