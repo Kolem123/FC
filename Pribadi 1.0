@@ -1,28 +1,3 @@
-Date=1 -- Expiry date
-Month=12 -- Expiry month 
-Year=9999 -- Expiry year
-expiremessage="⚠⚠𝙏𝙝𝙚 𝙨𝙘𝙧𝙞𝙥𝙩 𝙞𝙨 𝙚𝙭𝙥𝙞𝙧𝙚𝙙 ⚠⚠" --Expiry message 
---This script will expire on 15/05/2028
-
---Do not change below code 
-function check(t) 
-if t<10 then t="0"..t end
-return t
-end
-expiredate=Year.. check(Month).. check(Date)
-date=gg.makeRequest("https://www.pastebin.com").headers["Date" ][1] --whatismyip.org is smallest webpage so takes less time for loading 
-month={"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}
-for i=1,12 do
- if month[i]==string.sub(date,9, 11) then
-      if i<10 then
-       i="0"..i 
-      end 
- currentdate=string.sub(date,13, 16)..i..string.sub(date,6, 7)  
- end
-end
-if tonumber(currentdate)>=tonumber(expiredate) then gg.alert(expiremessage) os.exit() end
-
-
 gg.toast('𝘚𝘤𝘳𝘪𝘱𝘵 𝘔𝘢𝘥𝘦 𝘉𝘺 @KolemStoree')
 
 if gg.isVisible(false)
@@ -161,7 +136,7 @@ end  --SCRIPT by @KolemStoree
     
 function SHFR()  --menu 1(H2H MENU)
     setm = gg.choice({
- dop .. "⚡Disconnect Opponent (PHONE)😂________🎗️____"
+ dop .. "⚡Disconnect Opponent (PHONE)😂________🎗️____",
         "⚡HomeGround DirectWin________🎗️________ ",
         "⚡AwayGround DirectWin________🎗️________ ",
         "⚡ SPEED TIME________🎗️________ ",
