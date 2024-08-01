@@ -163,7 +163,7 @@ dop = "【𝗢𝗡】"
 elseif dop == "【𝗢𝗡】" then
 
     gg.processResume()
-    gg.setSpeed (1.5)
+    gg.setSpeed (1.0)
     gg.toast("𝘿𝙞𝙨𝙘𝙤𝙣𝙣𝙚𝙘𝙩 𝙊𝙁𝙁")
 dop = "【𝗢𝗙𝗙】"
 end --SCRIPT by @KolemStoree
