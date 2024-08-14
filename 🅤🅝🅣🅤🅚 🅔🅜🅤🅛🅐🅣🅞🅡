@@ -112,7 +112,7 @@ gg.clearList()
 gg.clearResults()
 
 local correctPasswords = {
-    "ewing"
+    "10"
 }
 
 local scriptRuns = 0 -- Кількість запусків скрипта
