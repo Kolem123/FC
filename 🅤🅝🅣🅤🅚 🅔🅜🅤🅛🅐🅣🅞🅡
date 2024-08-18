@@ -231,8 +231,8 @@ gg.refineNumber("0~6", gg.TYPE_DWORD)
 T1s = gg.getResults(gg.getResultsCount(4))[1]
 T2s = gg.getResults(gg.getResultsCount(4))[3]
 gg.processResume()
-T1s.value = 0
-T2s.value = 5 --Score HOME
+T1s.value = 1
+T2s.value = 2 --Score HOME
 T1s.freeze = true
 T2s.freeze = true
 gg.addListItems({
@@ -252,8 +252,8 @@ gg.refineNumber("0~6", gg.TYPE_DWORD)
 T1s = gg.getResults(gg.getResultsCount(4))[1]
 T2s = gg.getResults(gg.getResultsCount(4))[3]
 gg.processResume()
-T1s.value = 5 --Score AWAY
-T2s.value = 0
+T1s.value = 2 --Score AWAY
+T2s.value = 1
 T1s.freeze = true
 T2s.freeze = true
 gg.addListItems({
